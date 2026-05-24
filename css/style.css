@@ -590,7 +590,7 @@ body:not(.subpagina) p {
    ============================================================ */
 
 body.subpagina {
-    background-image: url("../images/fondomexico.webp");
+  background-image: url("../fondomexico.webp");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
