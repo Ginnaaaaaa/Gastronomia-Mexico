@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title
+        data-es="Gastronomía de México"
+        data-en="Mexican Gastronomy">
+        Gastronomía de México
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman&family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&family=Antic+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="subpagina">
+
+<header>
+
+    <h1 class="titulo">
+        GASTRONOMIA DE <br>
+        MEXIC<img src="images/corazon.webp" alt="O" class="letra-o">
+    </h1>
+
+    <button id="btn-hamburguesa" class="boton-hamburguesa" aria-expanded="false" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+<nav id="nav-principal" aria-label="Menú principal">
+
+    <a href="index.html"
+       data-es="Inicio"
+       data-en="Home">
+       Inicio
+    </a>
+
+    <a href="platostipicos.html"
+       data-es="Platos típicos"
+       data-en="Typical dishes">
+       Platos típicos
+    </a>
+
+    <div class="menu-desplegable">
+
+        <a href="#"
+           data-es="Más"
+           data-en="Further">
+           Más
+        </a>
+
+        <div class="submenu">
+
+            <a href="ingredientes.html"
+               data-es="Ingredientes"
+               data-en="Ingredients">
+               Ingredientes
+            </a>
+
+            <a href="historia.html"
+               data-es="Historia"
+               data-en="History">
+               Historia
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="idiomas">
+
+        <button class="boton-idioma" onclick="cambiarIdioma('es')">
+            ES
+        </button>
+
+        <button class="boton-idioma" onclick="cambiarIdioma('en')">
+            EN
+        </button>
+
+    </div>
+
+</nav>
+
+<main>
+
+<section id="ingredientes" class="platos">
+
+    <h2
+        data-es="INGREDIENTES TRADICIONALES"
+        data-en="TRADITIONAL INGREDIENTS">
+        INGREDIENTES TRADICIONALES
+    </h2>
+
+    <div class="ingredientes-grid">
+
+   <article class="ingrediente-bloque">
+
+    <h3
+        data-es="Tortillas a mano"
+        data-en="Handmade tortillas">
+        Tortillas a mano
+    </h3>
+
+        <ul>
+            <li data-es="<strong>Harina de maíz nixtamalizado:</strong> base principal de la tortilla."
+                data-en="<strong>Nixtamalized corn flour:</strong> main base of the tortilla.">
+                <strong>Harina de maíz nixtamalizado:</strong> base principal de la tortilla.
+            </li>
+
+            <li data-es="<strong>Agua:</strong> utilizada para hidratar la masa y obtener una consistencia suave."
+                data-en="<strong>Water:</strong> used to hydrate the dough and obtain a soft consistency.">
+                <strong>Agua:</strong> utilizada para hidratar la masa y obtener una consistencia suave.
+            </li>
+
+            <li data-es="<strong>Sal:</strong> aporta sabor a la preparación."
+                data-en="<strong>Salt:</strong> adds flavor to the preparation.">
+                <strong>Sal:</strong> aporta sabor a la preparación.
+            </li>
+
+            <li data-es="<strong>Aceite o manteca:</strong> opcionalmente se agrega para lograr tortillas más flexibles."
+                data-en="<strong>Oil or lard:</strong> optionally added to make tortillas more flexible.">
+                <strong>Aceite o manteca:</strong> opcionalmente se agrega para lograr tortillas más flexibles.
+            </li>
+        </ul>
+
+        <ul>
+            <li data-es="<strong>Preparación:</strong> Las tortillas a mano se preparan mezclando harina de maíz nixtamalizado con agua y sal hasta obtener una masa suave y manejable. Posteriormente se moldean manualmente y se cocinan sobre un comal caliente hasta lograr una textura flexible y tradicional."
+                data-en="<strong>Preparation:</strong> Handmade tortillas are prepared by mixing nixtamalized corn flour with water and salt until obtaining a soft and manageable dough. They are then shaped by hand and cooked on a hot griddle until achieving a flexible and traditional texture.">
+                <strong>Preparación:</strong> Las tortillas a mano se preparan mezclando harina de maíz nixtamalizado con agua y sal hasta obtener una masa suave y manejable. Posteriormente se moldean manualmente y se cocinan sobre un comal caliente hasta lograr una textura flexible y tradicional.
+            </li>
+        </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/hacertortillas.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Mole"
+        data-en="Mole">
+        Mole
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Chiles secos:</strong> mulato, pasilla, ancho o chipotle."
+            data-en="<strong>Dried chiles:</strong> mulato, pasilla, ancho or chipotle.">
+            <strong>Chiles secos:</strong> mulato, pasilla, ancho o chipotle.
+        </li>
+
+        <li data-es="<strong>Base:</strong> tomate, jitomate, cebolla y ajo."
+            data-en="<strong>Base:</strong> tomato, red tomato, onion and garlic.">
+            <strong>Base:</strong> tomate, jitomate, cebolla y ajo.
+        </li>
+
+        <li data-es="<strong>Frutos secos:</strong> almendras, cacahuates o nueces."
+            data-en="<strong>Nuts:</strong> almonds, peanuts or walnuts.">
+            <strong>Frutos secos:</strong> almendras, cacahuates o nueces.
+        </li>
+
+        <li data-es="<strong>Especias:</strong> canela, clavo, comino y pimienta."
+            data-en="<strong>Spices:</strong> cinnamon, cloves, cumin and pepper.">
+            <strong>Especias:</strong> canela, clavo, comino y pimienta.
+        </li>
+
+        <li data-es="<strong>Complementos:</strong> chocolate, caldo, pan o tortillas secas."
+            data-en="<strong>Complements:</strong> chocolate, broth, bread or dried tortillas.">
+            <strong>Complementos:</strong> chocolate, caldo, pan o tortillas secas.
+        </li>
+
+        <li data-es="<strong>Otros ingredientes:</strong> pasas, plátano o semillas de sésamo."
+            data-en="<strong>Other ingredients:</strong> raisins, banana or sesame seeds.">
+            <strong>Otros ingredientes:</strong> pasas, plátano o semillas de sésamo.
+        </li>
+
+    </ul>
+
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>El mole se prepara tostando y mezclando diferentes ingredientes como chiles secos, especias, chocolate y frutos secos. Luego se cocinan lentamente hasta obtener una salsa espesa y llena de sabor que acompaña diferentes platillos mexicanos."
+            data-en="<strong>Preparation:</strong> Mole is prepared by roasting and mixing different ingredients such as dried chiles, spices, chocolate and nuts. They are then slowly cooked until obtaining a thick and flavorful sauce that accompanies different Mexican dishes.">
+
+            <strong>Preparación:</strong>El mole se prepara tostando y mezclando diferentes ingredientes como chiles secos, especias, chocolate y frutos secos. Luego se cocinan lentamente hasta obtener una salsa espesa y llena de sabor que acompaña diferentes platillos mexicanos.
+
+        </li>
+
+    </ul>
+    
+    <div class="imagen-ingrediente">
+
+        <img src="images/haciendomole.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Tacos"
+        data-en="Tacos">
+        Tacos
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Tortillas:</strong> de maíz o harina."
+            data-en="<strong>Tortillas:</strong> corn or flour.">
+            <strong>Tortillas:</strong> de maíz o harina.
+        </li>
+
+        <li data-es="<strong>Rellenos:</strong> carne, pollo, pescado o vegetales."
+            data-en="<strong>Fillings:</strong> meat, chicken, fish or vegetables.">
+            <strong>Rellenos:</strong> carne, pollo, pescado o vegetales.
+        </li>
+
+        <li data-es="<strong>Acompañamientos:</strong> cebolla y cilantro picados."
+            data-en="<strong>Side dishes:</strong> chopped onion and cilantro.">
+            <strong>Acompañamientos:</strong> cebolla y cilantro picados.
+        </li>
+
+        <li data-es="<strong>Salsas:</strong> verdes, rojas o tradicionales."
+            data-en="<strong>Sauces:</strong> green, red or traditional sauces.">
+            <strong>Salsas:</strong> verdes, rojas o tradicionales.
+        </li>
+
+        <li data-es="<strong>Extras:</strong> limón, aguacate, queso, rábanos o repollo."
+            data-en="<strong>Extras:</strong> lemon, avocado, cheese, radishes or cabbage.">
+            <strong>Extras:</strong> limón, aguacate, queso, rábanos o repollo.
+        </li>
+
+    </ul>
+
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>Los tacos se preparan calentando tortillas de maíz o harina y agregando diferentes rellenos como carne, pollo, pescado o vegetales. Finalmente se acompañan con salsas tradicionales, cebolla, cilantro y limón al gusto."
+            data-en="<strong>Preparation:</strong> Tacos are prepared by heating corn or flour tortillas and adding different fillings such as meat, chicken, fish or vegetables. Finally, they are served with traditional sauces, onion, cilantro and lemon to taste.">
+
+            <strong>Preparación:</strong>Los tacos se preparan calentando tortillas de maíz o harina y agregando diferentes rellenos como carne, pollo, pescado o vegetales. Finalmente se acompañan con salsas tradicionales, cebolla, cilantro y limón al gusto.
+
+        </li>
+
+    </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/haciendo tacos.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Tamales"
+        data-en="Tamales">
+        Tamales
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Masa:</strong> maíz nixtamalizado y manteca."
+            data-en="<strong>Dough:</strong> nixtamalized corn and lard.">
+            <strong>Masa:</strong> maíz nixtamalizado y manteca.
+        </li>
+
+        <li data-es="<strong>Relleno:</strong> carne de pollo, cerdo o res."
+            data-en="<strong>Filling:</strong> chicken, pork or beef meat.">
+            <strong>Relleno:</strong> carne de pollo, cerdo o res.
+        </li>
+
+        <li data-es="<strong>Chiles secos:</strong> ancho, guajillo o pasilla."
+            data-en="<strong>Dried chiles:</strong> ancho, guajillo or pasilla.">
+            <strong>Chiles secos:</strong> ancho, guajillo o pasilla.
+        </li>
+
+        <li data-es="<strong>Condimentos:</strong> ajo, comino, pimienta y sal."
+            data-en="<strong>Seasonings:</strong> garlic, cumin, pepper and salt.">
+            <strong>Condimentos:</strong> ajo, comino, pimienta y sal.
+        </li>
+
+        <li data-es="<strong>Preparación:</strong> hojas de maíz y cocción al vapor."
+            data-en="<strong>Preparation:</strong> corn leaves and steamed cooking.">
+            <strong>Preparación:</strong> hojas de maíz y cocción al vapor.
+        </li>
+
+    </ul>
+
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>Los tamales se elaboran preparando una masa de maíz que posteriormente se rellena con carnes, salsas o vegetales. Luego se envuelven en hojas de maíz y se cocinan al vapor hasta obtener una textura suave y tradicional."
+            data-en="<strong>Preparation:</strong> Tamales are made by preparing a corn dough that is later filled with meats, sauces or vegetables. They are then wrapped in corn leaves and steamed until obtaining a soft and traditional texture.">
+
+            <strong>Preparación:</strong>Los tamales se elaboran preparando una masa de maíz que posteriormente se rellena con carnes, salsas o vegetales. Luego se envuelven en hojas de maíz y se cocinan al vapor hasta obtener una textura suave y tradicional.
+
+        </li>
+
+    </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/haciendotamales.webp" alt="Enchiladas">
+
+    </div>
+</article>
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Enchiladas"
+        data-en="Enchiladas">
+        Enchiladas
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Tortillas:</strong> de maíz suaves y tradicionales."
+            data-en="<strong>Tortillas:</strong> soft and traditional corn tortillas.">
+            <strong>Tortillas:</strong> de maíz suaves y tradicionales.
+        </li>
+
+        <li data-es="<strong>Relleno:</strong> pollo, carne, queso o frijoles."
+            data-en="<strong>Filling:</strong> chicken, meat, cheese or beans.">
+            <strong>Relleno:</strong> pollo, carne, queso o frijoles.
+        </li>
+
+        <li data-es="<strong>Salsa:</strong> roja, verde o de chile."
+            data-en="<strong>Sauce:</strong> red, green or chili sauce.">
+            <strong>Salsa:</strong> roja, verde o de chile.
+        </li>
+
+        <li data-es="<strong>Acompañamientos:</strong> crema, queso rallado y cebolla."
+            data-en="<strong>Side dishes:</strong> cream, grated cheese and onion.">
+            <strong>Acompañamientos:</strong> crema, queso rallado y cebolla.
+        </li>
+
+        <li data-es="<strong>Complementos:</strong> lechuga, aguacate o arroz mexicano."
+            data-en="<strong>Complements:</strong> lettuce, avocado or Mexican rice.">
+            <strong>Complementos:</strong> lechuga, aguacate o arroz mexicano.
+        </li>
+
+    </ul>
+ 
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>Las enchiladas se preparan rellenando tortillas de maíz con pollo, carne, queso o frijoles. Posteriormente se bañan con salsa tradicional roja o verde y se acompañan con crema, queso rallado, cebolla y diferentes guarniciones mexicanas."
+            data-en="<strong>Preparation:</strong> Enchiladas are prepared by filling corn tortillas with chicken, meat, cheese or beans. They are then covered with traditional red or green sauce and served with cream, grated cheese, onion and different Mexican side dishes.">
+
+            <strong>Preparación:</strong>Las enchiladas se preparan rellenando tortillas de maíz con pollo, carne, queso o frijoles. Posteriormente se bañan con salsa tradicional roja o verde y se acompañan con crema, queso rallado, cebolla y diferentes guarniciones mexicanas.
+
+        </li>
+
+    </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/enchiladas.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Quesadillas"
+        data-en="Quesadillas">
+        Quesadillas
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Tortillas:</strong> de maíz o harina."
+            data-en="<strong>Tortillas:</strong> corn or flour tortillas.">
+            <strong>Tortillas:</strong> de maíz o harina.
+        </li>
+
+        <li data-es="<strong>Queso:</strong> queso Oaxaca, mozzarella o quesillo."
+            data-en="<strong>Cheese:</strong> Oaxaca cheese, mozzarella or quesillo.">
+            <strong>Queso:</strong> queso Oaxaca, mozzarella o quesillo.
+        </li>
+
+        <li data-es="<strong>Rellenos:</strong> pollo, carne, champiñones o vegetales."
+            data-en="<strong>Fillings:</strong> chicken, meat, mushrooms or vegetables.">
+            <strong>Rellenos:</strong> pollo, carne, champiñones o vegetales.
+        </li>
+
+        <li data-es="<strong>Condimentos:</strong> sal y especias suaves."
+            data-en="<strong>Seasonings:</strong> salt and mild spices.">
+            <strong>Condimentos:</strong> sal y especias suaves.
+        </li>
+
+        <li data-es="<strong>Acompañamientos:</strong> guacamole, crema y salsas tradicionales."
+            data-en="<strong>Side dishes:</strong> guacamole, cream and traditional sauces.">
+            <strong>Acompañamientos:</strong> guacamole, crema y salsas tradicionales.
+        </li>
+
+    </ul>
+
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>Las quesadillas se elaboran colocando queso y diferentes ingredientes dentro de tortillas de maíz o harina. Luego se cocinan hasta que el queso se derrita y la tortilla obtenga una textura suave y ligeramente crujiente."
+            data-en="<strong>Preparation:</strong> Quesadillas are made by placing cheese and different ingredients inside corn or flour tortillas. They are then cooked until the cheese melts and the tortilla gets a soft and slightly crispy texture.">
+
+            <strong>Preparación:</strong>Las quesadillas se elaboran colocando queso y diferentes ingredientes dentro de tortillas de maíz o harina. Luego se cocinan hasta que el queso se derrita y la tortilla obtenga una textura suave y ligeramente crujiente.
+
+        </li>
+
+    </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/quesadillas.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Chiles rellenos"
+        data-en="Stuffed chiles">
+        Chiles rellenos
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Chiles:</strong> poblanos grandes y frescos."
+            data-en="<strong>Chiles:</strong> large and fresh poblano peppers.">
+            <strong>Chiles:</strong> poblanos grandes y frescos.
+        </li>
+
+        <li data-es="<strong>Relleno:</strong> queso, carne o vegetales."
+            data-en="<strong>Filling:</strong> cheese, meat or vegetables.">
+            <strong>Relleno:</strong> queso, carne o vegetales.
+        </li>
+
+        <li data-es="<strong>Salsa:</strong> tomate, cebolla y ajo."
+            data-en="<strong>Sauce:</strong> tomato, onion and garlic.">
+            <strong>Salsa:</strong> tomate, cebolla y ajo.
+        </li>
+
+        <li data-es="<strong>Condimentos:</strong> sal, pimienta y especias mexicanas."
+            data-en="<strong>Seasonings:</strong> salt, pepper and Mexican spices.">
+            <strong>Condimentos:</strong> sal, pimienta y especias mexicanas.
+        </li>
+
+        <li data-es="<strong>Complementos:</strong> arroz o frijoles tradicionales."
+            data-en="<strong>Complements:</strong> rice or traditional beans.">
+            <strong>Complementos:</strong> arroz o frijoles tradicionales.
+        </li>
+
+    </ul>
+
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>Los chiles rellenos se preparan limpiando y rellenando chiles poblanos con queso, carne o vegetales. Después se cocinan con salsa de tomate y especias tradicionales que resaltan el sabor característico de este platillo mexicano."
+            data-en="<strong>Preparation:</strong> Stuffed chiles are prepared by cleaning and filling poblano peppers with cheese, meat or vegetables. They are then cooked with tomato sauce and traditional spices that highlight the characteristic flavor of this Mexican dish.">
+
+            <strong>Preparación:</strong>Los chiles rellenos se preparan limpiando y rellenando chiles poblanos con queso, carne o vegetales. Después se cocinan con salsa de tomate y especias tradicionales que resaltan el sabor característico de este platillo mexicano.
+
+        </li>
+
+    </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/chilesrellenos.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+<article class="ingrediente-bloque">
+
+    <h3
+        data-es="Pozole"
+        data-en="Pozole">
+        Pozole
+    </h3>
+
+    <ul>
+
+        <li data-es="<strong>Base:</strong> maíz pozolero y caldo tradicional."
+            data-en="<strong>Base:</strong> pozole corn and traditional broth.">
+            <strong>Base:</strong> maíz pozolero y caldo tradicional.
+        </li>
+
+        <li data-es="<strong>Carne:</strong> pollo, cerdo o res."
+            data-en="<strong>Meat:</strong> chicken, pork or beef.">
+            <strong>Carne:</strong> pollo, cerdo o res.
+        </li>
+
+        <li data-es="<strong>Condimentos:</strong> ajo, cebolla y chiles secos."
+            data-en="<strong>Seasonings:</strong> garlic, onion and dried chiles.">
+            <strong>Condimentos:</strong> ajo, cebolla y chiles secos.
+        </li>
+
+        <li data-es="<strong>Acompañamientos:</strong> lechuga, rábanos y limón."
+            data-en="<strong>Side dishes:</strong> lettuce, radishes and lemon.">
+            <strong>Acompañamientos:</strong> lechuga, rábanos y limón.
+        </li>
+
+        <li data-es="<strong>Complementos:</strong> tostadas y salsa picante."
+            data-en="<strong>Complements:</strong> tostadas and hot sauce.">
+            <strong>Complementos:</strong> tostadas y salsa picante.
+        </li>
+
+    </ul>
+
+    <ul>
+
+        <li data-es="<strong>Preparación:</strong>El pozole se prepara cocinando maíz pozolero junto con carne y diferentes condimentos tradicionales. Generalmente se sirve caliente y se acompaña con lechuga, rábanos, cebolla, limón y salsas típicas mexicanas."
+            data-en="<strong>Preparation:</strong> Pozole is prepared by cooking pozole corn together with meat and different traditional seasonings. It is usually served hot and accompanied with lettuce, radishes, onion, lemon and typical Mexican sauces.">
+
+            <strong>Preparación:</strong>El pozole se prepara cocinando maíz pozolero junto con carne y diferentes condimentos tradicionales. Generalmente se sirve caliente y se acompaña con lechuga, rábanos, cebolla, limón y salsas típicas mexicanas.
+
+        </li>
+
+    </ul>
+
+    <div class="imagen-ingrediente">
+
+        <img src="images/pozole.webp" alt="Enchiladas">
+
+    </div>
+
+</article>
+
+</div>
+</section>
+
+</main>
+
+<footer>
+
+    <p
+        data-es="© 2026 Gastronomía de México"
+        data-en="© 2026 Mexican Gastronomy">
+        © 2026 Gastronomía de México
+    </p>
+
+    <nav aria-label="Enlaces del pie de página">
+
+        <a href="#"
+           style="color: white;"
+           data-es="Contacto"
+           data-en="Contact">
+           Contacto
+        </a>
+
+        <a href="#"
+           style="color: white;"
+           data-es="Créditos"
+           data-en="Credits">
+           Créditos
+        </a>
+
+    </nav>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+<button id="btn-arriba" aria-label="Volver arriba">↑</button>
+
+</body>
+</html>

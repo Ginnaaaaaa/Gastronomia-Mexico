@@ -1,0 +1,287 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title 
+        data-es="Gastronomía de México"
+        data-en="Mexican Gastronomy">
+        Gastronomía de México
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman&family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&family=Antic+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="home">
+
+<header>
+
+    <h1 class="titulo">
+        GASTRONOMIA DE <br>
+        MEXIC<img src="images/corazon.webp" alt="O" class="letra-o">
+    </h1>
+
+    <button id="btn-hamburguesa" class="boton-hamburguesa" aria-expanded="false" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+<nav id="nav-principal" aria-label="Menú principal">
+
+    <a href="index.html"
+       data-es="Inicio"
+       data-en="Home">
+       Inicio
+    </a>
+
+    <a href="platostipicos.html"
+       data-es="Platos típicos"
+       data-en="Typical dishes">
+       Platos típicos
+    </a>
+
+    <div class="menu-desplegable">
+
+        <a href="#"
+           data-es="Más"
+           data-en="Further">
+           Más
+        </a>
+
+        <div class="submenu">
+
+            <a href="ingredientes.html"
+               data-es="Ingredientes"
+               data-en="Ingredients">
+               Ingredientes
+            </a>
+
+            <a href="historia.html"
+               data-es="Historia"
+               data-en="History">
+               Historia
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="idiomas">
+
+        <button class="boton-idioma" onclick="cambiarIdioma('es')">
+            ES
+        </button>
+
+        <button class="boton-idioma" onclick="cambiarIdioma('en')">
+            EN
+        </button>
+
+    </div>
+
+</nav>
+<div id="saludo-bienvenida"></div>
+
+<main>
+
+    <div class="inicio">
+
+        <img 
+            src="images/fondonachos.webp" 
+            alt="Plato de nachos con guacamole y salsas mexicanas con chiles picantes" 
+            class="imagen-inicio">
+
+        <div class="texto-sobre-imagen">
+
+            <p 
+                id="texto-inicio"
+
+                data-es="¡Te invito a descubrir la gastronomia de <br>
+                México, una mezcla de sabores y tradiciones <br>
+                que siempre sorprenden!"
+
+                data-en="I invite you to discover the gastronomy of <br>
+                Mexico, a mixture of flavors and traditions <br>
+                that always surprises!">
+
+                ¡Te invito a descubrir la gastronomia de <br>
+                México, una mezcla de sabores y tradiciones <br>
+                que siempre sorprenden!
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="fondo-index"></div>
+
+    <section class="contenido-index">
+
+        <h2
+            data-es="Sabores que representan a México"
+            data-en="Flavors that represent Mexico">
+
+            Sabores que representan a México
+
+        </h2>
+
+        <p
+
+            data-es="La gastronomía mexicana es reconocida por la mezcla de sabores intensos,
+            colores vibrantes y recetas tradicionales que han pasado de generación en generación.
+            Cada platillo refleja parte de la identidad cultural y la historia de México."
+
+            data-en="Mexican gastronomy is recognized for its mix of intense flavors,
+            vibrant colors and traditional recipes passed down from generation to generation.
+            Each dish reflects part of Mexico's cultural identity and history.">
+
+            La gastronomía mexicana es reconocida por la mezcla de sabores intensos,
+            colores vibrantes y recetas tradicionales que han pasado de generación en generación.
+            Cada platillo refleja parte de la identidad cultural y la historia de México.
+
+        </p>
+
+    </section>
+
+    <section class="contenido-index alterno">
+
+        <h2
+            data-es="Tradición, cultura y color"
+            data-en="Tradition, culture and color">
+
+            Tradición, cultura y color
+
+        </h2>
+
+        <p
+
+            data-es="México posee una de las cocinas más representativas del mundo.
+            Ingredientes como el maíz, los chiles y las especias forman parte esencial
+            de preparaciones llenas de tradición y diversidad cultural."
+
+            data-en="Mexico has one of the most representative cuisines in the world.
+            Ingredients such as corn, chiles and spices are an essential part
+            of preparations full of tradition and cultural diversity.">
+
+            México posee una de las cocinas más representativas del mundo.
+            Ingredientes como el maíz, los chiles y las especias forman parte esencial
+            de preparaciones llenas de tradición y diversidad cultural.
+
+        </p>
+
+    </section>
+
+    <section class="contenido-index">
+
+        <h2
+            data-es="Explora la gastronomía mexicana"
+            data-en="Explore Mexican gastronomy">
+
+            Explora la gastronomía mexicana
+
+        </h2>
+
+        <p
+
+            data-es="En este sitio podrás conocer algunos platos típicos e ingredientes tradicionales
+            que hacen parte de la riqueza culinaria mexicana, a través de una experiencia
+            visual adaptable e interactiva."
+
+            data-en="On this website you will discover some traditional dishes and ingredients
+            that are part of the richness of Mexican cuisine through an adaptable
+            and interactive visual experience.">
+
+            En este sitio podrás conocer algunos platos típicos e ingredientes tradicionales
+            que hacen parte de la riqueza culinaria mexicana, a través de una experiencia
+            visual adaptable e interactiva.
+
+        </p>
+
+    </section>
+
+    <section class="slider-section">
+
+        <h2 
+            id="titulo-galeria"
+
+            data-es="Galería gastronómica"
+            data-en="Gastronomic gallery">
+
+            Galería gastronómica
+
+        </h2>
+
+        <div class="decoracion-slider">
+            ✦
+        </div>
+
+        <div class="slider">
+
+            <button id="btn-anterior">❮</button>
+
+            <img 
+                id="imagen-slider"
+                src="images/tacos.webp"
+                alt="Gastronomía mexicana">
+
+            <button id="btn-siguiente">❯</button>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p
+        data-es="© 2026 Gastronomía de México"
+        data-en="© 2026 Mexican Gastronomy">
+
+        © 2026 Gastronomía de México
+
+    </p>
+
+    <nav aria-label="Enlaces del pie de página">
+
+        <a 
+            href="#" 
+            style="color: white;"
+
+            data-es="Contacto"
+            data-en="Contact">
+
+            Contacto
+
+        </a>
+
+        <a 
+            href="#" 
+            style="color: white;"
+
+            data-es="Créditos"
+            data-en="Credits">
+
+            Créditos
+
+        </a>
+
+    </nav>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+<button id="btn-arriba" aria-label="Volver arriba">↑</button>
+
+</body>
+</html>
